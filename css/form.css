@@ -1,0 +1,37 @@
+.form {
+  position: relative;
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding-left: 650px; */
+  /* padding-top: 150px; */
+  margin-left: 600px;
+  margin-top: 150px;
+  /* max-width: 51%;*/
+  padding: 15px;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.form button {
+  justify-content: center;
+  display: flex;
+  margin-left: 55px;
+  margin-top: 15px;
+  border-radius: 6px;
+  border: 3px solid navajowhite;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  /* opacity: 75%; */
+}
