@@ -302,3 +302,8 @@ li {
 #about{
  margin-bottom: -250px;
 }
+
+.location{
+  margin-top: 55px;
+  text-decoration: none;
+}
