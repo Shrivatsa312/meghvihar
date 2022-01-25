@@ -1,8 +1,9 @@
 .form {
   position: relative;
-  background-color: red;
+  background-color: none;
+  border: 2px solid;
   width: 300px;
-  height: 300px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,15 +15,26 @@
   /* max-width: 51%;*/
   padding: 15px;
   border-radius: 15px;
-  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
   color: white;
 }
 
 .form button {
   justify-content: center;
   display: flex;
-  margin-left: 55px;
-  margin-top: 15px;
+  margin-left: 0px;
+  margin-top: 0px;
+  border-radius: 6px;
+  border: 3px solid navajowhite;
+}
+
+.form button:hover {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 50px;
+  width: 70px;
+  cursor: pointer;
   border-radius: 6px;
   border: 3px solid navajowhite;
 }
@@ -34,4 +46,55 @@
   min-width: 100%;
   min-height: 100%;
   /* opacity: 75%; */
+}
+
+#name {
+  height: 20px;
+  border-radius: 7px;
+  border: 2px solid white;
+}
+
+#sem {
+  height: 20px;
+  border-radius: 7px;
+  border: 2px solid white;
+}
+
+#email {
+  height: 20px;
+  border-radius: 7px;
+  border: 2px solid white;
+}
+
+#username {
+  height: 20px;
+  border-radius: 7px;
+  border: 2px solid white;
+}
+
+#password {
+  height: 20px;
+  border-radius: 7px;
+  border: 2px solid white;
+}
+
+#return {
+  position: relative;
+  background-color: none;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  color: black;
+  border-radius: 7px;
+  padding: 0px;
+  width: 121px;
+  height: 40px;
+  border: 2px solid white;
+}
+
+.return {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  margin-left: 10px;
 }
